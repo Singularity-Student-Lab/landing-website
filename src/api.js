@@ -2,10 +2,9 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL,
-});
+  baseURL: process.env.REACT_APP_API_URL, });
 
-// Intercept responses to check for authentication errors
+// Intercept responses to check for authentication error
 api.interceptors.response.use(
   (response) => response, // Directly return a successful response
   (error) => {
