@@ -20,7 +20,7 @@ const Footer = () => {
     { icon: Twitter, href: '#', label: 'Twitter' },
   ];
 
-  const footerLinks = [
+  const footerLinks = [ //will be updated 
     {
       title: 'Quick Links',
       items: [
