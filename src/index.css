@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@400;500;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -106,4 +107,47 @@
 @keyframes floatRight {
   0% { transform: translateX(-200px); }
   100% { transform: translateX(100vw); }
+}
+
+/* Adding extra css for aanutatva lab */
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.font-heading {
+  font-family: 'Bungee', cursive;
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* changed the font style  */
+.font-heading {
+  font-family: 'Bungee', cursive;
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Add this to 3D medel viewer*/
+
+.model-viewer {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.model-viewer.loaded {
+  opacity: 1;
 }
