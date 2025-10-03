@@ -10,7 +10,7 @@ const Footer = () => {
     { name: 'Chitra Darshan Lab', path: '/chitra-darshan-lab' },
     { name: 'Varahamihira Lab', path: '/varahamihira-lab' },
     { name: 'Bhaskaracharya Lab', path: '/bhaskaracharya-lab' },
-    { name: 'Agastya Lab', path: '/agastya-lab' },
+    { name: 'Agastya Lab', path: '/agastya-lab' }, 
     { name: 'Navya Vigyan Lab', path: '/navya-vigyan-lab' },
   ];
 
