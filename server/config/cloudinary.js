@@ -1,4 +1,4 @@
-// server/config/cloudinary.js
+// server/config/cloudinary.js  --> need to enter the credentials in .env of cloud storage server
 const cloudinary = require('cloudinary').v2;
 const { CloudinaryStorage } = require('multer-storage-cloudinary');
 const multer = require('multer');
