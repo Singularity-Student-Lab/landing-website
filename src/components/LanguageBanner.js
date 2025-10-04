@@ -1,8 +1,8 @@
 import React from "react";
 
-const LanguageBanner: React.FC = () => {
+const LanguageBanner: React.FC = () => { 
   const languages = [
-    "Aanu Tattva ",
+    "Aanu Tattva",
     "Agastya",
     "Bhaskaracharya",
     "ChitraDarshan",
