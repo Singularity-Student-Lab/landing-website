@@ -56,15 +56,11 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 mr-3 mt-1 flex-shrink-0" />
-                <span>University Research Complex, Technology Building, Room 404</span>
+                <span>S209, SR Block, SRM University, Andhra Pradesh</span>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 mr-3" />
                 <a href="mailto:contact@singularitylab.edu" className="hover:text-white">contact@singularitylab.edu</a>
-              </li>
-              <li className="flex items-center">
-                <Phone className="w-5 h-5 mr-3" />
-                <span>+1 (234) 567-8900</span>
               </li>
             </ul>
           </div>

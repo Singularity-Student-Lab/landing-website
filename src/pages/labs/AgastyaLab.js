@@ -134,7 +134,7 @@ const AgastyaLab = () => {
             objectFit: 'cover',
             zIndex: 1
           }}
-          src="https://res.cloudinary.com/djtemmctt/video/upload/v1758569986/WhatsApp_Video_2025-09-23_at_12.34.51_AM_apnvdi.mp4"
+          src="https://res.cloudinary.com/djtemmctt/video/upload/v1761393761/WhatsApp_Video_2025-09-24_at_11.38.39_PM_zm6ivn.mp4"
         />
 
         {/* Overlay for readability */}
@@ -202,7 +202,7 @@ const AgastyaLab = () => {
         </div>
       </section>
 
-      {/* Research Areas */}
+      {/* Research Areas
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -237,7 +237,7 @@ const AgastyaLab = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Team Section */}
       <section className="py-16 bg-gradient-to-b from-gray-900/50 to-transparent">

@@ -81,19 +81,19 @@ const Home = () => {
   };
 
   const labs = [
-    { name: 'Prajna Kritrima Lab', path: '/prajna-kritrima-lab', tagline: 'AI/ML, Deep Learning, Generative AI', image: getCloudinaryUrl('v1758735862/Screenshot_from_2025-09-24_23-12-57_p3xz52.png') },
+    { name: 'Prajna Kritrima Lab', path: '/prajna-kritrima-lab', tagline: 'AI/ML, Deep Learning, Generative AI', image: getCloudinaryUrl('v1761406537/AI-ML-Use-Cases_blog_b7tjdy.jpg') },
     { name: 'Aanu Tattva Lab', path: '/aanu-tattva-lab', tagline: 'Quantum Computing, Quantum Machine Learning', image: getCloudinaryUrl('v1758735862/Screenshot_from_2025-09-24_23-12-57_p3xz52.png') },
-    { name: 'Chitra Darshan Lab', path: '/chitra-darshan-lab', tagline: 'Game Development, AR, VR, Mixed Reality', image: getCloudinaryUrl('v1758735862/Screenshot_from_2025-09-24_23-12-57_p3xz52.png') },
-    { name: 'Varahamihira Lab', path: '/varahamihira-lab', tagline: 'Cloud Computing, Distributed Systems', image: getCloudinaryUrl('v1758735862/Screenshot_from_2025-09-24_23-12-57_p3xz52.png') },
-    { name: 'Bhaskaracharya Lab', path: '/bhaskaracharya-lab', tagline: 'Cybersecurity, Blockchain, Web3', image: getCloudinaryUrl('v1758735862/Screenshot_from_2025-09-24_23-12-57_p3xz52.png') },
-    { name: 'Agastya Lab', path: '/agastya-lab', tagline: 'Robotics, IoT, Embedded Systems', image: getCloudinaryUrl('v1758735862/Screenshot_from_2025-09-24_23-12-57_p3xz52.png') },
-    { name: 'Navya Vigyan Lab', path: '/navya-vigyan-lab', tagline: 'Interdisciplinary & Experimental Technology', image: getCloudinaryUrl('v1758735862/Screenshot_from_2025-09-24_23-12-57_p3xz52.png') },
+    { name: 'Chitra Darshan Lab', path: '/chitra-darshan-lab', tagline: 'Game Development, AR, VR, Mixed Reality', image: getCloudinaryUrl('v1761406537/game-development-trends-banner_gnm2hi.jpg') },
+    { name: 'Varahamihira Lab', path: '/varahamihira-lab', tagline: 'Cloud Computing, Distributed Systems', image: getCloudinaryUrl('v1761406537/ODATA-Cloud-scaled_dqq1lj.jpg') },
+    { name: 'Bhaskaracharya Lab', path: '/bhaskaracharya-lab', tagline: 'Cybersecurity, Blockchain, Web3', image: getCloudinaryUrl('v1761406536/is-web-development-dying_dijdm2.jpg') },
+    { name: 'Agastya Lab', path: '/agastya-lab', tagline: 'Robotics, IoT, Embedded Systems', image: getCloudinaryUrl('v1761406538/ARK-Invest_091024_Blog_Robotics_Banner_l41he9.png') },
+    { name: 'Navya Vigyan Lab', path: '/navya-vigyan-lab', tagline: 'Interdisciplinary & Experimental Technology', image: getCloudinaryUrl('/v1761406942/novel-architectures-for-machine-learning-and-artificial-intelligence_1_it1bbe.webp') },
   ];
   
   const events = [
-    { title: 'Tech Innovation Summit 2024', date: 'March 15, 2024', time: '9:00 AM - 5:00 PM', location: 'University Auditorium', description: 'Join us for a day of cutting-edge technology presentations, workshops, and networking opportunities.', image: getCloudinaryUrl('v1758735862/Screenshot_from_2025-09-24_23-12-57_p3xz52.png'), status: 'Open' },
-    { title: 'AI & Machine Learning Workshop', date: 'March 22, 2024', time: '2:00 PM - 6:00 PM', location: 'Computer Lab 3', description: 'Hands-on workshop covering the latest developments in AI and machine learning technologies.', image: getCloudinaryUrl('v1758735862/Screenshot_from_2025-09-24_23-12-57_p3xz52.png'), status: 'Open' },
-    { title: 'Quantum Computing Symposium', date: 'April 5, 2024', time: '10:00 AM - 4:00 PM', location: 'Physics Department', description: 'Explore the future of quantum computing with leading researchers and industry experts.', image: getCloudinaryUrl('v1758735862/Screenshot_from_2025-09-24_23-12-57_p3xz52.png'), status: 'Coming Soon' }
+    { title: 'Tech Fest 25', date: '31st October to 3rd November', time: '9:00 AM - 5:00 PM', location: 'SRM University, AP', description: 'Join us for a day of cutting-edge technology presentations, workshops, and networking opportunities.', image: getCloudinaryUrl('v1761581589/WhatsApp_Image_2025-10-27_at_9.32.43_PM_bwj9nw.jpg'), status: 'Open' },
+    { title: 'Introuction to Quantum computation', date: 'October 31, 2025', time: '2:00 PM - 4:30 PM', location: 'Mini Auditorium', description: 'A comprehensive beginner friendly hands-on workshop', image: getCloudinaryUrl('v1761581958/WhatsApp_Image_2025-10-27_at_9.32.44_PM_qmk0ex.jpg'), status: 'Open' },
+    { title: 'Devops, AI & Abroad career guidance', date: 'November 1 & 3, 2025', time: '2:30 PM - 3:30 PM', location: 'Mini Auditorium', description: 'Explore the future of Devops ,AI & Abroad career mentoring with leading researchers and industry experts.', image: getCloudinaryUrl('v1761582038/WhatsApp_Image_2025-10-27_at_9.47.10_PM_y5yfpt.jpg'), status: 'Open' }
   ];
 
   const labImages = [

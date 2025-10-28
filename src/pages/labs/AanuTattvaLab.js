@@ -12,32 +12,25 @@ const getCloudinaryUrl = (publicId, transformations = '') => {
 const AanuTattvaLab = () => {
   const executives = [
     {
-      name: 'Dr. Quantum Zhang',
-      role: 'Lab Director',
-      specialization: 'Quantum Algorithms & Complexity',
+      name: 'Jayanth Ramakrishnan',
+      specialization: 'Quantum Algorithms & ML',
       image: 'https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=', // Fixed: Using placeholder for now
       bio: 'Leading quantum computing researcher with expertise in quantum algorithms and quantum machine learning.'
     },
-    {
-      name: 'Dr. Maya Patel',
-      role: 'Research Lead',
-      specialization: 'Quantum Machine Learning',
-      image: 'https://images.pexels.com/photos/3094799/pexels-photo-3094799.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', // Fixed: Using placeholder for now
-      bio: 'Pioneer in quantum machine learning with multiple breakthrough publications in quantum neural networks.'
-    }
+
   ];
 
   const affiliates = [
     {
       name: 'Prof. Richard Feynman',
       role: 'Faculty Advisor',
-      specialization: 'Quantum Physics',
+      //specialization: 'Quantum Physics',
       affiliation: 'Department of Physics'
     },
     {
       name: 'Dr. Shor Algorithm',
       role: 'Industry Partner',
-      specialization: 'Quantum Cryptography',
+      //specialization: 'Quantum Cryptography',
       affiliation: 'QuantumTech Industries'
     },
     {
@@ -220,7 +213,7 @@ const AanuTattvaLab = () => {
         </div>
       </section>
 
-      {/* Research Areas */}
+      {/* Research Areas
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -257,7 +250,7 @@ const AanuTattvaLab = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Team Section */}
       <section className="py-16 bg-gradient-to-b from-gray-900/50 to-transparent">
