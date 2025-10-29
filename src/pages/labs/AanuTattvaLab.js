@@ -182,9 +182,7 @@ const AanuTattvaLab = () => {
             </p>
             
             <p className="text-lg text-gray-400 max-w-4xl leading-relaxed font-body">
-              Exploring the quantum realm to revolutionize computing and machine learning. We develop quantum 
-              algorithms, quantum machine learning models, and quantum error correction techniques that will 
-              shape the future of computation.
+              Aanu Tattva Lab, derived from Sanskrit where “Aanu” means atom and “Tattva” means principle or essence, is the Quantum Computing division of the Singularity Student Research Lab at SRM University AP. It’s where physics meets computation — students explore qubits, entanglement, and quantum algorithms to decode the mysteries of the subatomic world. From theoretical foundations to quantum simulations, Aanu Tattva Lab is where the next wave of computational revolution begins.
             </p>
           </motion.div>
         </div>

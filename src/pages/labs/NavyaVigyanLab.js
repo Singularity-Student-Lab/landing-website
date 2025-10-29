@@ -166,9 +166,7 @@ const NavyaVigyanLab = () => {
             </p>
             
             <p className="text-lg text-gray-400 max-w-4xl leading-relaxed font-body">
-              Pushing the boundaries of innovation through interdisciplinary research and experimental technology. 
-              We explore the convergence of multiple scientific disciplines to create breakthrough solutions that 
-              address complex challenges and shape the future of technology.
+              Navya Vigyan Lab, meaning “Modern Science” in Sanskrit, is the Interdisciplinary and Management division of the Singularity Student Research Lab at SRM University AP. It’s where innovation meets organization — students blend technology with strategy, exploring intersections of research, entrepreneurship, and leadership. From managing projects to driving interdisciplinary collaborations, Navya Vigyan Lab empowers visionaries to turn ideas into impactful realities. 
             </p>
           </motion.div>
         </div>

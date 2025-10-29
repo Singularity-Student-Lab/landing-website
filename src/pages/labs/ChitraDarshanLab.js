@@ -172,9 +172,7 @@ const ChitraDarshanLab = () => {
             </p>
             
             <p className="text-lg text-gray-400 max-w-4xl leading-relaxed font-body">
-              Creating immersive digital experiences that blur the line between reality and imagination. 
-              We develop cutting-edge games, virtual reality environments, and augmented reality applications 
-              that push the boundaries of interactive entertainment and spatial computing.
+              Chitra Darshan Lab, meaning “vision through imagery” in Sanskrit, is the AR, VR, MR, and Game Development division of the Singularity Student Research Lab at SRM University AP. It’s where imagination meets immersion — students craft virtual worlds, interactive experiences, and mixed reality applications that blur the line between the real and the digital. From gamified learning to futuristic simulations, Chitra Darshan Lab is the canvas where creativity comes alive in 3D.
             </p>
           </motion.div>
         </div>

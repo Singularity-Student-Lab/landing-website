@@ -172,9 +172,7 @@ const AgastyaLab = () => {
             </p>
             
             <p className="text-lg text-gray-400 max-w-4xl leading-relaxed font-body">
-              Building intelligent systems that bridge the physical and digital worlds. We develop advanced robotics, 
-              IoT solutions, and embedded systems that create smarter, more connected environments for homes, 
-              cities, and industries.
+              Agastya Lab, inspired by the ancient sage known for his wisdom and innovation, is the Drones, IoT, and LoRa division of the Singularity Student Research Lab at SRM University AP. It’s where circuits take flight and ideas connect — students build smart systems, autonomous drones, and long-range IoT networks that bridge the physical and digital worlds. From sky to sensor, Agastya Lab turns imagination into intelligent motion.
             </p>
           </motion.div>
         </div>

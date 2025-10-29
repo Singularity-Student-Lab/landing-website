@@ -161,13 +161,11 @@ const VarahamihiraLab = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-300 mb-4 font-body">
-              LucideNetwork Computing & Distributed Systems
+              Cloud Computing & Cybersecurity
             </p>
             
             <p className="text-lg text-gray-400 max-w-4xl leading-relaxed font-body">
-              Pioneering the future of artificial intelligence through cutting-edge research in deep learning, 
-              neural networks, and generative AI systems. We develop intelligent solutions that push the 
-              boundaries of what machines can learn and create.
+              Varahamihira Lab, named after the brilliant astronomer and polymath, is the Cloud Computing and Cybersecurity division of the Singularity Student Research Lab at SRM University AP. It’s where the cloud meets code and security meets strategy — students architect scalable cloud systems, fortify networks, and explore the art of digital defense. From deploying robust infrastructures to safeguarding cyberspace, Varahamihira Lab empowers minds to build and protect the future of tech.
             </p>
           </motion.div>
         </div>
@@ -245,7 +243,7 @@ const VarahamihiraLab = () => {
               Our <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Team</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl font-body">
-              Meet the brilliant minds driving innovation in artificial intelligence.
+              Meet the brilliant minds driving innovation in artificial intelligence & cybersecurity.
             </p>
           </motion.div>
 

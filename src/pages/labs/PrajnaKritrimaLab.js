@@ -164,9 +164,7 @@ const PrajnaKritrimaLab = () => {
             </p>
             
             <p className="text-lg text-gray-400 max-w-4xl leading-relaxed font-body">
-              Pioneering the future of artificial intelligence through cutting-edge research in deep learning, 
-              neural networks, and generative AI systems. We develop intelligent solutions that push the 
-              boundaries of what machines can learn and create.
+              Prajna Kritrima — Sanskrit for Artificial Intelligence (Prajna = wisdom, Kritrima = man-made) — is where brains meet bytes! As the AI, ML, and DL wing of the Singularity Student Research Lab, we tinker, train, and twist neural nets into life. From wild AI agents to deep learning experiments, it’s where curiosity codes intelligence! 
             </p>
           </motion.div>
         </div>

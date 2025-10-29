@@ -168,13 +168,11 @@ const BhaskaracharyaLab = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-300 mb-4 font-body">
-              Cybersecurity, Blockchain & Web3
+              Blockchain & Web3
             </p>
             
             <p className="text-lg text-gray-400 max-w-4xl leading-relaxed font-body">
-              Securing the digital future through advanced cybersecurity research and blockchain innovation. 
-              We develop cutting-edge security solutions, decentralized systems, and Web3 technologies that 
-              protect and empower users in an increasingly connected world.
+              Bhaskaracharya Lab, named after the legendary mathematician and astronomer, is the Web Development division of the Singularity Student Research Lab at SRM University AP. It’s where design meets logic and creativity meets code — students craft stunning websites, dynamic web apps, and digital experiences that speak innovation. From front-end flair to back-end brilliance running by Web3 Emphasis, Bhaskaracharya Lab is the playground where ideas turn into interactive realities.
             </p>
           </motion.div>
         </div>
