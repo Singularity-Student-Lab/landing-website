@@ -8,12 +8,20 @@ const CLOUDINARY_CLOUD_NAME = 'djtemmctt';
 const getCloudinaryUrl = (publicId, transformations = '') => {
   return `https://res.cloudinary.com/${CLOUDINARY_CLOUD_NAME}/video/upload/${transformations}${publicId}`;
 };
+
 const AgastyaLab = () => {
 const executives = [
   {
     name: 'Pradeep Chalamcharla',
     specialization: 'Robotics & Autonomous Systems',
     image: 'https://res.cloudinary.com/djtemmctt/image/upload/v1761842247/Screenshot_from_2025-10-30_22-07-06_dbiv0s.png', // 🔹 Replace with actual Cloudinary image link
+    linkedin: 'https://www.linkedin.com/in/pradeep-chalamcharla/', // 🔹 Replace with actual profile
+    twitter: 'https://twitter.com/pradeep_chalam', // 🔹 Replace with actual profile
+  },
+  {
+    name: 'Ashvanth S',
+    specialization: 'Drones & 3D Modeling',
+    image: 'https://res.cloudinary.com/djtemmctt/image/upload/v1761848956/Screenshot_from_2025-10-30_23-59-00_mjgw1q.png', // 🔹 Replace with actual Cloudinary image link
     linkedin: 'https://www.linkedin.com/in/pradeep-chalamcharla/', // 🔹 Replace with actual profile
     twitter: 'https://twitter.com/pradeep_chalam', // 🔹 Replace with actual profile
   },

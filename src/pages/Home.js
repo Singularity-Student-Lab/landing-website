@@ -216,7 +216,7 @@ const Home = () => {
                     <p className="text-sm text-white leading-relaxed font-body">{event.description}</p>
                     <div className="flex items-center text-white text-sm font-body"><Clock className="w-4 h-4 mr-2" />{event.time}</div>
                     <div className="flex items-center text-white text-sm font-body"><MapPin className="w-4 h-4 mr-2" />{event.location}</div>
-                    <button className="w-full mt-4 py-2 px-4 rounded-full border border-gray-600 text-sm font-semibold hover:bg-white hover:text-black transition-colors duration-300 font-body">Apply Now</button>
+                    {/* <button className="w-full mt-4 py-2 px-4 rounded-full border border-gray-600 text-sm font-semibold hover:bg-white hover:text-black transition-colors duration-300 font-body">Apply Now</button> */}
                   </div>
                 </div>
               </div>
