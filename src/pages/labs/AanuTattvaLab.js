@@ -13,6 +13,7 @@ const AanuTattvaLab = () => {
   const executives = [
     {
       name: 'Jayanth Ramakrishnan',
+      // role: 'Research Lead',
       specialization: 'Quantum Algorithms & ML',
       image: 'https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=', // Fixed: Using placeholder for now
       bio: 'Leading quantum computing researcher with expertise in quantum algorithms and quantum machine learning.'
@@ -300,7 +301,7 @@ const AanuTattvaLab = () => {
             </div>
           </div>
 
-          {/* Affiliates */}
+          Affiliates
           <div className="mb-16">
             <h3 className="text-2xl font-bold text-white mb-8 font-heading">Affiliates</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

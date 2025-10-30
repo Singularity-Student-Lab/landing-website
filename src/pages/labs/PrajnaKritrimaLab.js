@@ -5,19 +5,12 @@ import { Brain, Cpu, Database, Zap, Users, Award, BookOpen, ArrowRight } from 'l
 const PrajnaKritrimaLab = () => {
   const executives = [
     {
-      name: 'Dr. Sarah Chen',
-      role: 'Lab Director',
+      name: 'Krish Nariya',
+      // role: 'Lab Director',
       specialization: 'Deep Learning & Neural Networks',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
       bio: 'Leading researcher in deep learning with 10+ years of experience in neural network architectures.'
     },
-    {
-      name: 'Alex Rodriguez',
-      role: 'Research Lead',
-      specialization: 'Generative AI & LLMs',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
-      bio: 'Expert in large language models and generative AI systems with multiple publications in top-tier conferences.'
-    }
   ];
 
   // const affiliates = [

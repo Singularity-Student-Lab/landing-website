@@ -12,15 +12,15 @@ const getCloudinaryUrl = (publicId, transformations = '') => {
 const BhaskaracharyaLab = () => {
   const executives = [
     {
-      name: 'Dr. Security Master',
-      role: 'Lab Director',
+      name: 'Parvendan R',
+      // role: 'Lab Director',
       specialization: 'Cybersecurity & Cryptography',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
       bio: 'Leading cybersecurity expert with 15+ years of experience in threat analysis and cryptographic systems.'
     },
     {
-      name: 'Dr. Blockchain Pioneer',
-      role: 'Research Lead',
+      name: 'Dave Meshak J',
+      // role: 'Research Lead',
       specialization: 'Blockchain & Web3 Technologies',
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face',
       bio: 'Pioneer in blockchain technology with breakthrough research in decentralized systems and smart contracts.'

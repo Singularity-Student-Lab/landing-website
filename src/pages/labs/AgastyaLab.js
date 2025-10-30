@@ -12,19 +12,12 @@ const getCloudinaryUrl = (publicId, transformations = '') => {
 const AgastyaLab = () => {
   const executives = [
     {
-      name: 'Dr. Robot Master',
-      role: 'Lab Director',
+      name: 'Pradeep Chalamcharla',
+      // role: 'Lab Director',
       specialization: 'Robotics & Autonomous Systems',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
       bio: 'Leading robotics expert with 12+ years of experience in autonomous systems and robotic intelligence.'
     },
-    {
-      name: 'Dr. IoT Innovator',
-      role: 'Research Lead',
-      specialization: 'IoT & Embedded Systems',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face',
-      bio: 'Pioneer in IoT technologies with breakthrough research in smart sensors and embedded computing systems.'
-    }
   ];
 
   // const affiliates = [

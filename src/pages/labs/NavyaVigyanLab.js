@@ -5,19 +5,12 @@ import { FlaskConical, Lightbulb, Zap, Database, Users, Award, BookOpen, ArrowRi
 const NavyaVigyanLab = () => {
   const executives = [
     {
-      name: 'Dr. Innovation Leader',
-      role: 'Lab Director',
+      name: 'Coming Soon',
+      // role: 'Lab Director',
       specialization: 'Interdisciplinary Research',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
       bio: 'Leading interdisciplinary researcher with 15+ years of experience in experimental technology and innovation.'
     },
-    {
-      name: 'Dr. Future Tech',
-      role: 'Research Lead',
-      specialization: 'Experimental Technology',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face',
-      bio: 'Pioneer in experimental technologies with breakthrough research in emerging tech and interdisciplinary applications.'
-    }
   ];
 
   // const affiliates = [
