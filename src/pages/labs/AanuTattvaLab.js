@@ -13,6 +13,7 @@ const AanuTattvaLab = () => {
   const executives = [
     {
       name: 'Jayanth Ramakrishnan',
+      // role: 'Research Lead',
       specialization: 'Quantum Algorithms & ML',
       image: 'https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=', // Fixed: Using placeholder for now
       bio: 'Leading quantum computing researcher with expertise in quantum algorithms and quantum machine learning.'
@@ -20,64 +21,64 @@ const AanuTattvaLab = () => {
 
   ];
 
-  const affiliates = [
-    {
-      name: 'Prof. Richard Feynman',
-      role: 'Faculty Advisor',
-      //specialization: 'Quantum Physics',
-      affiliation: 'Department of Physics'
-    },
-    {
-      name: 'Dr. Shor Algorithm',
-      role: 'Industry Partner',
-      //specialization: 'Quantum Cryptography',
-      affiliation: 'QuantumTech Industries'
-    },
-    {
-      name: 'Dr. Bell State',
-      role: 'Collaborating Researcher',
-      specialization: 'Quantum Entanglement',
-      affiliation: 'Quantum Research Institute'
-    }
-  ];
+  // const affiliates = [
+  //   {
+  //     name: 'Prof. Richard Feynman',
+  //     role: 'Faculty Advisor',
+  //     //specialization: 'Quantum Physics',
+  //     affiliation: 'Department of Physics'
+  //   },
+  //   {
+  //     name: 'Dr. Shor Algorithm',
+  //     role: 'Industry Partner',
+  //     //specialization: 'Quantum Cryptography',
+  //     affiliation: 'QuantumTech Industries'
+  //   },
+  //   {
+  //     name: 'Dr. Bell State',
+  //     role: 'Collaborating Researcher',
+  //     specialization: 'Quantum Entanglement',
+  //     affiliation: 'Quantum Research Institute'
+  //   }
+  // ];
 
   const members = [
     {
-      name: 'Alice Quantum',
-      role: 'PhD Student',
+      name: 'B Md Fawaz',
+      // role: 'PhD Student',
       specialization: 'Quantum Algorithms',
-      year: '3rd Year'
-    },
-    {
-      name: 'Bob Entangled',
-      role: 'MS Student',
-      specialization: 'Quantum Machine Learning',
-      year: '2nd Year'
-    },
-    {
-      name: 'Charlie Superposition',
-      role: 'Undergraduate Researcher',
-      specialization: 'Quantum Computing',
-      year: 'Senior'
-    },
-    {
-      name: 'Diana Coherence',
-      role: 'PhD Student',
-      specialization: 'Quantum Error Correction',
-      year: '4th Year'
-    },
-    {
-      name: 'Eve Interference',
-      role: 'MS Student',
-      specialization: 'Quantum Cryptography',
       year: '1st Year'
     },
     {
-      name: 'Frank Decoherence',
-      role: 'Undergraduate Researcher',
-      specialization: 'Quantum Simulation',
-      year: 'Junior'
-    }
+      name: 'Jahnavi Alaham',
+      // role: 'MS Student',
+      specialization: 'Quantum Machine Learning',
+      year: '1st Year'
+    },
+    {
+      name: 'Kondreddy Yaswitha Reddy',
+      // role: 'Undergraduate Researcher',
+      specialization: 'Quantum Computing',
+      year: '2nd Year'
+    },
+    {
+      name: 'Rudrapaka Bhavitha',
+      // role: 'PhD Student',
+      specialization: 'Quantum Error Correction',
+      year: '2nd Year'
+    },
+    // {
+    //   name: 'Eve Interference',
+    //   role: 'MS Student',
+    //   specialization: 'Quantum Cryptography',
+    //   year: '1st Year'
+    // },
+    // {
+    //   name: 'Frank Decoherence',
+    //   role: 'Undergraduate Researcher',
+    //   specialization: 'Quantum Simulation',
+    //   year: 'Junior'
+    // }
   ];
 
   const researchAreas = [
@@ -291,7 +292,7 @@ const AanuTattvaLab = () => {
           </div>
 
           {/* Affiliates */}
-          <div className="mb-16">
+          {/* <div className="mb-16">
             <h3 className="text-2xl font-bold text-white mb-8 font-heading">Affiliates</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {affiliates.map((affiliate, index) => (
@@ -310,7 +311,7 @@ const AanuTattvaLab = () => {
                 </motion.div>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Members */}
           <div>

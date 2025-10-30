@@ -12,79 +12,84 @@ const getCloudinaryUrl = (publicId, transformations = '') => {
 const AgastyaLab = () => {
   const executives = [
     {
-      name: 'Dr. Robot Master',
-      role: 'Lab Director',
+      name: 'Pradeep Chalamcharla',
+      // role: 'Lab Director',
       specialization: 'Robotics & Autonomous Systems',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
+      image: 'image link here',
       bio: 'Leading robotics expert with 12+ years of experience in autonomous systems and robotic intelligence.'
     },
-    {
-      name: 'Dr. IoT Innovator',
-      role: 'Research Lead',
-      specialization: 'IoT & Embedded Systems',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face',
-      bio: 'Pioneer in IoT technologies with breakthrough research in smart sensors and embedded computing systems.'
-    }
   ];
 
-  const affiliates = [
-    {
-      name: 'Prof. John Robotics',
-      role: 'Faculty Advisor',
-      specialization: 'Mechanical Engineering',
-      affiliation: 'Department of Engineering'
-    },
-    {
-      name: 'Dr. Sarah Sensors',
-      role: 'Industry Partner',
-      specialization: 'Sensor Technologies',
-      affiliation: 'SmartTech Industries'
-    },
-    {
-      name: 'Dr. Mike Embedded',
-      role: 'Collaborating Researcher',
-      specialization: 'Embedded Systems',
-      affiliation: 'Embedded Research Labs'
-    }
-  ];
+  // const affiliates = [
+  //   {
+  //     name: 'Prof. John Robotics',
+  //     role: 'Faculty Advisor',
+  //     specialization: 'Mechanical Engineering',
+  //     affiliation: 'Department of Engineering'
+  //   },
+  //   {
+  //     name: 'Dr. Sarah Sensors',
+  //     role: 'Industry Partner',
+  //     specialization: 'Sensor Technologies',
+  //     affiliation: 'SmartTech Industries'
+  //   },
+  //   {
+  //     name: 'Dr. Mike Embedded',
+  //     role: 'Collaborating Researcher',
+  //     specialization: 'Embedded Systems',
+  //     affiliation: 'Embedded Research Labs'
+  //   }
+  // ];
 
   const members = [
-    {
-      name: 'Alex Robot',
-      role: 'PhD Student',
-      specialization: 'Autonomous Navigation',
+     {
+      name: 'Vedansh Rathore',
+      // role: 'MS Student',
+      specialization: 'Smart Sensors',
       year: '3rd Year'
     },
-    {
-      name: 'Emma Sensor',
-      role: 'MS Student',
+     {
+      name: 'Yogendra Konduru',
+      // role: 'MS Student',
       specialization: 'Smart Sensors',
       year: '2nd Year'
     },
     {
-      name: 'David IoT',
-      role: 'Undergraduate Researcher',
-      specialization: 'IoT Networks',
-      year: 'Senior'
+      name: 'Aditya Kumar',
+      // role: 'PhD Student',
+      specialization: 'Autonomous Navigation',
+      year: '2nd Year'
     },
-    {
-      name: 'Sophie Embedded',
-      role: 'PhD Student',
-      specialization: 'Embedded AI',
-      year: '4th Year'
-    },
-    {
-      name: 'Ryan Automation',
-      role: 'MS Student',
-      specialization: 'Industrial Automation',
-      year: '1st Year'
-    },
-    {
-      name: 'Maya Smart',
-      role: 'Undergraduate Researcher',
-      specialization: 'Smart Cities',
-      year: 'Junior'
-    }
+    // {
+    //   name: 'Emma Sensor',
+    //   role: 'MS Student',
+    //   specialization: 'Smart Sensors',
+    //   year: '2nd Year'
+    // },
+    // {
+    //   name: 'David IoT',
+    //   role: 'Undergraduate Researcher',
+    //   specialization: 'IoT Networks',
+    //   year: 'Senior'
+    // },
+    // {
+    //   name: 'Sophie Embedded',
+    //   role: 'PhD Student',
+    //   specialization: 'Embedded AI',
+    //   year: '4th Year'
+    // },
+    // {
+    //   name: 'Ryan Automation',
+    //   role: 'MS Student',
+    //   specialization: 'Industrial Automation',
+    //   year: '1st Year'
+    // },
+    // {
+    //   name: 'Maya Smart',
+    //   role: 'Undergraduate Researcher',
+    //   specialization: 'Smart Cities',
+    //   year: 'Junior'
+    // }
   ];
 
   const researchAreas = [
@@ -286,7 +291,7 @@ const AgastyaLab = () => {
           </div>
 
           {/* Affiliates */}
-          <div className="mb-16">
+          {/* <div className="mb-16">
             <h3 className="text-2xl font-bold text-white mb-8 font-heading">Affiliates</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {affiliates.map((affiliate, index) => (
@@ -304,7 +309,7 @@ const AgastyaLab = () => {
                 </motion.div>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Members */}
           <div>

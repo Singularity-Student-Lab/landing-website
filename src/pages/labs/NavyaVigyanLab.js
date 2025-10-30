@@ -5,79 +5,72 @@ import { FlaskConical, Lightbulb, Zap, Database, Users, Award, BookOpen, ArrowRi
 const NavyaVigyanLab = () => {
   const executives = [
     {
-      name: 'Dr. Innovation Leader',
-      role: 'Lab Director',
+      name: 'Coming Soon',
+      // role: 'Lab Director',
       specialization: 'Interdisciplinary Research',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
+      image: 'image link here',
       bio: 'Leading interdisciplinary researcher with 15+ years of experience in experimental technology and innovation.'
     },
-    {
-      name: 'Dr. Future Tech',
-      role: 'Research Lead',
-      specialization: 'Experimental Technology',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face',
-      bio: 'Pioneer in experimental technologies with breakthrough research in emerging tech and interdisciplinary applications.'
-    }
   ];
 
-  const affiliates = [
-    {
-      name: 'Prof. John Innovation',
-      role: 'Faculty Advisor',
-      specialization: 'Technology Innovation',
-      affiliation: 'Department of Engineering'
-    },
-    {
-      name: 'Dr. Sarah Future',
-      role: 'Industry Partner',
-      specialization: 'Emerging Technologies',
-      affiliation: 'FutureTech Industries'
-    },
-    {
-      name: 'Dr. Mike Experimental',
-      role: 'Collaborating Researcher',
-      specialization: 'Experimental Design',
-      affiliation: 'Innovation Research Institute'
-    }
-  ];
+  // const affiliates = [
+  //   {
+  //     name: 'Prof. John Innovation',
+  //     role: 'Faculty Advisor',
+  //     specialization: 'Technology Innovation',
+  //     affiliation: 'Department of Engineering'
+  //   },
+  //   {
+  //     name: 'Dr. Sarah Future',
+  //     role: 'Industry Partner',
+  //     specialization: 'Emerging Technologies',
+  //     affiliation: 'FutureTech Industries'
+  //   },
+  //   {
+  //     name: 'Dr. Mike Experimental',
+  //     role: 'Collaborating Researcher',
+  //     specialization: 'Experimental Design',
+  //     affiliation: 'Innovation Research Institute'
+  //   }
+  // ];
 
   const members = [
     {
-      name: 'Alex Innovator',
-      role: 'PhD Student',
+      name: 'Coming Soon',
+      // role: 'PhD Student',
       specialization: 'Biotech Integration',
-      year: '3rd Year'
+      year: '... Year'
     },
-    {
-      name: 'Emma Experimental',
-      role: 'MS Student',
-      specialization: 'Nano Technology',
-      year: '2nd Year'
-    },
-    {
-      name: 'David Future',
-      role: 'Undergraduate Researcher',
-      specialization: 'Space Technology',
-      year: 'Senior'
-    },
-    {
-      name: 'Sophie Interdisciplinary',
-      role: 'PhD Student',
-      specialization: 'AI-Bio Interface',
-      year: '4th Year'
-    },
-    {
-      name: 'Ryan Emerging',
-      role: 'MS Student',
-      specialization: 'Quantum Materials',
-      year: '1st Year'
-    },
-    {
-      name: 'Maya Experimental',
-      role: 'Undergraduate Researcher',
-      specialization: 'Sustainable Tech',
-      year: 'Junior'
-    }
+    // {
+    //   name: 'Emma Experimental',
+    //   role: 'MS Student',
+    //   specialization: 'Nano Technology',
+    //   year: '2nd Year'
+    // },
+    // {
+    //   name: 'David Future',
+    //   role: 'Undergraduate Researcher',
+    //   specialization: 'Space Technology',
+    //   year: 'Senior'
+    // },
+    // {
+    //   name: 'Sophie Interdisciplinary',
+    //   role: 'PhD Student',
+    //   specialization: 'AI-Bio Interface',
+    //   year: '4th Year'
+    // },
+    // {
+    //   name: 'Ryan Emerging',
+    //   role: 'MS Student',
+    //   specialization: 'Quantum Materials',
+    //   year: '1st Year'
+    // },
+    // {
+    //   name: 'Maya Experimental',
+    //   role: 'Undergraduate Researcher',
+    //   specialization: 'Sustainable Tech',
+    //   year: 'Junior'
+    // }
   ];
 
   const researchAreas = [
@@ -276,7 +269,7 @@ const NavyaVigyanLab = () => {
           </div>
 
           {/* Affiliates */}
-          <div className="mb-16">
+          {/* <div className="mb-16">
             <h3 className="text-2xl font-bold text-white mb-8 font-heading">Affiliates</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {affiliates.map((affiliate, index) => (
@@ -294,7 +287,7 @@ const NavyaVigyanLab = () => {
                 </motion.div>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Members */}
           <div>
