@@ -8,7 +8,7 @@ const NavyaVigyanLab = () => {
       name: 'Coming Soon',
       // role: 'Lab Director',
       specialization: 'Interdisciplinary Research',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
+      image: 'image link here',
       bio: 'Leading interdisciplinary researcher with 15+ years of experience in experimental technology and innovation.'
     },
   ];
@@ -36,41 +36,41 @@ const NavyaVigyanLab = () => {
 
   const members = [
     {
-      name: 'Alex Innovator',
-      role: 'PhD Student',
+      name: 'Coming Soon',
+      // role: 'PhD Student',
       specialization: 'Biotech Integration',
-      year: '3rd Year'
+      year: '... Year'
     },
-    {
-      name: 'Emma Experimental',
-      role: 'MS Student',
-      specialization: 'Nano Technology',
-      year: '2nd Year'
-    },
-    {
-      name: 'David Future',
-      role: 'Undergraduate Researcher',
-      specialization: 'Space Technology',
-      year: 'Senior'
-    },
-    {
-      name: 'Sophie Interdisciplinary',
-      role: 'PhD Student',
-      specialization: 'AI-Bio Interface',
-      year: '4th Year'
-    },
-    {
-      name: 'Ryan Emerging',
-      role: 'MS Student',
-      specialization: 'Quantum Materials',
-      year: '1st Year'
-    },
-    {
-      name: 'Maya Experimental',
-      role: 'Undergraduate Researcher',
-      specialization: 'Sustainable Tech',
-      year: 'Junior'
-    }
+    // {
+    //   name: 'Emma Experimental',
+    //   role: 'MS Student',
+    //   specialization: 'Nano Technology',
+    //   year: '2nd Year'
+    // },
+    // {
+    //   name: 'David Future',
+    //   role: 'Undergraduate Researcher',
+    //   specialization: 'Space Technology',
+    //   year: 'Senior'
+    // },
+    // {
+    //   name: 'Sophie Interdisciplinary',
+    //   role: 'PhD Student',
+    //   specialization: 'AI-Bio Interface',
+    //   year: '4th Year'
+    // },
+    // {
+    //   name: 'Ryan Emerging',
+    //   role: 'MS Student',
+    //   specialization: 'Quantum Materials',
+    //   year: '1st Year'
+    // },
+    // {
+    //   name: 'Maya Experimental',
+    //   role: 'Undergraduate Researcher',
+    //   specialization: 'Sustainable Tech',
+    //   year: 'Junior'
+    // }
   ];
 
   const researchAreas = [

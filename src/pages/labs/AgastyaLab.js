@@ -15,7 +15,7 @@ const AgastyaLab = () => {
       name: 'Pradeep Chalamcharla',
       // role: 'Lab Director',
       specialization: 'Robotics & Autonomous Systems',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
+      image: 'image link here',
       bio: 'Leading robotics expert with 12+ years of experience in autonomous systems and robotic intelligence.'
     },
   ];
@@ -42,42 +42,54 @@ const AgastyaLab = () => {
   // ];
 
   const members = [
-    {
-      name: 'Alex Robot',
-      role: 'PhD Student',
-      specialization: 'Autonomous Navigation',
+     {
+      name: 'Vedansh Rathore',
+      // role: 'MS Student',
+      specialization: 'Smart Sensors',
       year: '3rd Year'
     },
-    {
-      name: 'Emma Sensor',
-      role: 'MS Student',
+     {
+      name: 'Yogendra Konduru',
+      // role: 'MS Student',
       specialization: 'Smart Sensors',
       year: '2nd Year'
     },
     {
-      name: 'David IoT',
-      role: 'Undergraduate Researcher',
-      specialization: 'IoT Networks',
-      year: 'Senior'
+      name: 'Aditya Kumar',
+      // role: 'PhD Student',
+      specialization: 'Autonomous Navigation',
+      year: '2nd Year'
     },
-    {
-      name: 'Sophie Embedded',
-      role: 'PhD Student',
-      specialization: 'Embedded AI',
-      year: '4th Year'
-    },
-    {
-      name: 'Ryan Automation',
-      role: 'MS Student',
-      specialization: 'Industrial Automation',
-      year: '1st Year'
-    },
-    {
-      name: 'Maya Smart',
-      role: 'Undergraduate Researcher',
-      specialization: 'Smart Cities',
-      year: 'Junior'
-    }
+    // {
+    //   name: 'Emma Sensor',
+    //   role: 'MS Student',
+    //   specialization: 'Smart Sensors',
+    //   year: '2nd Year'
+    // },
+    // {
+    //   name: 'David IoT',
+    //   role: 'Undergraduate Researcher',
+    //   specialization: 'IoT Networks',
+    //   year: 'Senior'
+    // },
+    // {
+    //   name: 'Sophie Embedded',
+    //   role: 'PhD Student',
+    //   specialization: 'Embedded AI',
+    //   year: '4th Year'
+    // },
+    // {
+    //   name: 'Ryan Automation',
+    //   role: 'MS Student',
+    //   specialization: 'Industrial Automation',
+    //   year: '1st Year'
+    // },
+    // {
+    //   name: 'Maya Smart',
+    //   role: 'Undergraduate Researcher',
+    //   specialization: 'Smart Cities',
+    //   year: 'Junior'
+    // }
   ];
 
   const researchAreas = [

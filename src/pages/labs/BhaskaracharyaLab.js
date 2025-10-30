@@ -15,14 +15,14 @@ const BhaskaracharyaLab = () => {
       name: 'Parvendan R',
       // role: 'Lab Director',
       specialization: 'Cybersecurity & Cryptography',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
+      image: 'image link here',
       bio: 'Leading cybersecurity expert with 15+ years of experience in threat analysis and cryptographic systems.'
     },
     {
       name: 'Dave Meshak J',
       // role: 'Research Lead',
       specialization: 'Blockchain & Web3 Technologies',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face',
+      image: 'image link here',
       bio: 'Pioneer in blockchain technology with breakthrough research in decentralized systems and smart contracts.'
     }
   ];
@@ -50,41 +50,59 @@ const BhaskaracharyaLab = () => {
 
   const members = [
     {
-      name: 'Alex Hacker',
-      role: 'PhD Student',
-      specialization: 'Penetration Testing',
-      year: '3rd Year'
-    },
-    {
-      name: 'Emma Crypto',
-      role: 'MS Student',
-      specialization: 'Cryptographic Protocols',
+      name: 'Alok raj',
+      // role: 'PhD Student',
+      specialization: 'CSE Core',
       year: '2nd Year'
     },
     {
-      name: 'David Smart',
-      role: 'Undergraduate Researcher',
-      specialization: 'Smart Contracts',
-      year: 'Senior'
-    },
-    {
-      name: 'Sophie DeFi',
-      role: 'PhD Student',
-      specialization: 'Decentralized Finance',
-      year: '4th Year'
-    },
-    {
-      name: 'Ryan Network',
-      role: 'MS Student',
-      specialization: 'Network Security',
+      name: 'Atharv Mamidwar',
+      // role: 'MS Student',
+      specialization: 'Cryptographic Protocols',
       year: '1st Year'
     },
     {
-      name: 'Maya Privacy',
-      role: 'Undergraduate Researcher',
+      name: 'B Md Fawaz',
+      // role: 'Undergraduate Researcher',
+      specialization: 'Smart Contracts',
+      year: '2nd year'
+    },
+    {
+      name: 'Balagam S S K Uma Devi',
+      // role: 'PhD Student',
+      specialization: 'Decentralized Finance',
+      year: '2nd Year'
+    },
+    {
+      name: 'Ch Akhila',
+      // role: 'MS Student',
+      specialization: 'Network Security',
+      year: '3rd Year'
+    },
+    {
+      name: 'G.Bhanu Prakash Reddy ',
+      // role: 'Undergraduate Researcher',
       specialization: 'Privacy-Preserving Tech',
-      year: 'Junior'
-    }
+      year: '2nd year'
+    },
+    {
+      name: 'Gnanada Alavala ',
+      // role: 'Undergraduate Researcher',
+      specialization: 'Privacy-Preserving Tech',
+      year: '2nd year'
+    },
+    {
+      name: 'J.Abhilash ',
+      // role: 'Undergraduate Researcher',
+      specialization: 'Privacy-Preserving Tech',
+      year: '2nd year'
+    },
+    {
+      name: 'K V Santhosh',
+      // role: 'Undergraduate Researcher',
+      specialization: 'Privacy-Preserving Tech',
+      year: '3rd year'
+    },
   ];
 
   const researchAreas = [

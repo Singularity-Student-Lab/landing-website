@@ -9,14 +9,14 @@ const VarahamihiraLab = () => {
       name: 'Poojan Patel',
       // role: 'Lab Director',
       specialization: 'Deep Learning & Neural Networks',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
+      image: 'image link here',
       bio: 'Leading researcher in deep learning with 10+ years of experience in neural network architectures.'
     },
     {
       name: 'Lokesh K',
       // role: 'Research Lead',
       specialization: 'Generative AI & LLMs',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
+      image: 'image link here',
       bio: 'Expert in large language models and generative AI systems with multiple publications in top-tier conferences.'
     }
   ];
@@ -44,41 +44,41 @@ const VarahamihiraLab = () => {
 
   const members = [
     {
-      name: 'Maria Garcia',
-      role: 'PhD Student',
+      name: 'Kartikey Juyal',
+      // role: 'PhD Student',
       specialization: 'Computer Vision',
-      year: '3rd Year'
-    },
-    {
-      name: 'David Kim',
-      role: 'MS Student',
-      specialization: 'Reinforcement Learning',
-      year: '2nd Year'
-    },
-    {
-      name: 'Lisa Wang',
-      role: 'Undergraduate Researcher',
-      specialization: 'Generative Models',
-      year: 'Senior'
-    },
-    {
-      name: 'Tom Wilson',
-      role: 'PhD Student',
-      specialization: 'Federated Learning',
-      year: '4th Year'
-    },
-    {
-      name: 'Anna Patel',
-      role: 'MS Student',
-      specialization: 'Explainable AI',
       year: '1st Year'
     },
     {
-      name: 'Chris Brown',
-      role: 'Undergraduate Researcher',
-      specialization: 'Deep Reinforcement Learning',
-      year: 'Junior'
-    }
+      name: 'Sriman Rutvik. V',
+      // role: 'MS Student',
+      specialization: 'Reinforcement Learning',
+      year: '2nd Year'
+    },
+    // {
+    //   name: 'Lisa Wang',
+    //   role: 'Undergraduate Researcher',
+    //   specialization: 'Generative Models',
+    //   year: 'Senior'
+    // },
+    // {
+    //   name: 'Tom Wilson',
+    //   role: 'PhD Student',
+    //   specialization: 'Federated Learning',
+    //   year: '4th Year'
+    // },
+    // {
+    //   name: 'Anna Patel',
+    //   role: 'MS Student',
+    //   specialization: 'Explainable AI',
+    //   year: '1st Year'
+    // },
+    // {
+    //   name: 'Chris Brown',
+    //   role: 'Undergraduate Researcher',
+    //   specialization: 'Deep Reinforcement Learning',
+    //   year: 'Junior'
+    // }
   ];
 
   const researchAreas = [

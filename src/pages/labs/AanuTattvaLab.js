@@ -44,41 +44,41 @@ const AanuTattvaLab = () => {
 
   const members = [
     {
-      name: 'Alice Quantum',
-      role: 'PhD Student',
+      name: 'B Md Fawaz',
+      // role: 'PhD Student',
       specialization: 'Quantum Algorithms',
-      year: '3rd Year'
-    },
-    {
-      name: 'Bob Entangled',
-      role: 'MS Student',
-      specialization: 'Quantum Machine Learning',
-      year: '2nd Year'
-    },
-    {
-      name: 'Charlie Superposition',
-      role: 'Undergraduate Researcher',
-      specialization: 'Quantum Computing',
-      year: 'Senior'
-    },
-    {
-      name: 'Diana Coherence',
-      role: 'PhD Student',
-      specialization: 'Quantum Error Correction',
-      year: '4th Year'
-    },
-    {
-      name: 'Eve Interference',
-      role: 'MS Student',
-      specialization: 'Quantum Cryptography',
       year: '1st Year'
     },
     {
-      name: 'Frank Decoherence',
-      role: 'Undergraduate Researcher',
-      specialization: 'Quantum Simulation',
-      year: 'Junior'
-    }
+      name: 'Jahnavi Alaham',
+      // role: 'MS Student',
+      specialization: 'Quantum Machine Learning',
+      year: '1st Year'
+    },
+    {
+      name: 'Kondreddy Yaswitha Reddy',
+      // role: 'Undergraduate Researcher',
+      specialization: 'Quantum Computing',
+      year: '2nd Year'
+    },
+    {
+      name: 'Rudrapaka Bhavitha',
+      // role: 'PhD Student',
+      specialization: 'Quantum Error Correction',
+      year: '2nd Year'
+    },
+    // {
+    //   name: 'Eve Interference',
+    //   role: 'MS Student',
+    //   specialization: 'Quantum Cryptography',
+    //   year: '1st Year'
+    // },
+    // {
+    //   name: 'Frank Decoherence',
+    //   role: 'Undergraduate Researcher',
+    //   specialization: 'Quantum Simulation',
+    //   year: 'Junior'
+    // }
   ];
 
   const researchAreas = [

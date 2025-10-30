@@ -8,7 +8,7 @@ const PrajnaKritrimaLab = () => {
       name: 'Krish Nariya',
       // role: 'Lab Director',
       specialization: 'Deep Learning & Neural Networks',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
+      image: 'image link here',
       bio: 'Leading researcher in deep learning with 10+ years of experience in neural network architectures.'
     },
   ];
@@ -35,42 +35,84 @@ const PrajnaKritrimaLab = () => {
   // ];
 
   const members = [
-    {
-      name: 'Maria Garcia',
-      role: 'PhD Student',
-      specialization: 'Computer Vision',
+     {
+      name: 'DNV Likhitha Chittineedi ',
+      // role: 'MS Student',
+      specialization: 'AIML',
       year: '3rd Year'
     },
     {
-      name: 'David Kim',
-      role: 'MS Student',
+      name: 'Arijit das',
+      // role: 'MS Student',
       specialization: 'Reinforcement Learning',
       year: '2nd Year'
     },
     {
-      name: 'Lisa Wang',
-      role: 'Undergraduate Researcher',
+      name: 'Ayush Dwivedi',
+      // role: 'Undergraduate Researcher',
       specialization: 'Generative Models',
-      year: 'Senior'
+      year: '3rd year'
     },
     {
-      name: 'Tom Wilson',
-      role: 'PhD Student',
+      name: 'Batchu Surya Teja',
+      // role: 'PhD Student',
       specialization: 'Federated Learning',
-      year: '4th Year'
+      year: '3rd Year'
     },
     {
-      name: 'Anna Patel',
-      role: 'MS Student',
-      specialization: 'Explainable AI',
+      name: 'A.V. Ram Sathvik',
+      // role: 'PhD Student',
+      specialization: 'Computer Vision',
+      year: '3rd Year'
+    },
+    {
+      name: 'M.Vinod',
+      // role: 'Undergraduate Researcher',
+      specialization: 'Deep Reinforcement Learning',
+      year: '2nd Year'
+    },
+    {
+      name: 'Mandala srujan',
+      // role: 'PhD Student',
+      specialization: 'Computer Vision',
+      year: '2nd Year'
+    },
+    {
+      name: 'Nikhitha Uppalapati ',
+      // role: 'PhD Student',
+      specialization: 'Computer Vision',
+      year: '3rd Year'
+    },
+     {
+      name: 'P. Joshika',
+      // role: 'PhD Student',
+      specialization: 'Computer Vision',
+      year: '3rd Year'
+    },
+    {
+      name: 'S. Pavan Kumar ',
+      // role: 'PhD Student',
+      specialization: 'Computer Vision',
+      year: '3rd Year'
+    },
+    {
+      name: 's.naga kashya ',
+      // role: 'PhD Student',
+      specialization: 'Computer Vision',
+      year: '3rd Year'
+    },
+    {
+      name: 'Shree varshan suresh kumar  ',
+      // role: 'PhD Student',
+      specialization: 'Computer Vision',
       year: '1st Year'
     },
     {
-      name: 'Chris Brown',
-      role: 'Undergraduate Researcher',
-      specialization: 'Deep Reinforcement Learning',
-      year: 'Junior'
-    }
+      name: 'Tarun Karma  ',
+      // role: 'PhD Student',
+      specialization: 'Computer Vision',
+      year: '2nd Year'
+    },
   ];
 
   const researchAreas = [
