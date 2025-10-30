@@ -14,7 +14,7 @@ const AanuTattvaLab = () => {
     {
       name: 'Jayanth Ramakrishnan',
       specialization: 'Quantum Algorithms & ML',
-      image: 'https://res.cloudinary.com/djtemmctt/image/upload/v1761842759/Screenshot_from_2025-10-30_22-15-06_goscru.png',
+      image: 'https://res.cloudinary.com/djtemmctt/image/upload/v1761848513/WhatsApp_Image_2025-10-30_at_11.50.03_PM_sxcde2.jpg',
       linkedin: 'https://www.linkedin.com/in/jayanth-ramakrishnan/', // 🔗 Replace with real link
       twitter: 'https://twitter.com/jayanth_ramakrishnan', // 🔗 Replace with real link
     },
