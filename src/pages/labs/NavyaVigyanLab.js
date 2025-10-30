@@ -20,26 +20,26 @@ const NavyaVigyanLab = () => {
     }
   ];
 
-  const affiliates = [
-    {
-      name: 'Prof. John Innovation',
-      role: 'Faculty Advisor',
-      specialization: 'Technology Innovation',
-      affiliation: 'Department of Engineering'
-    },
-    {
-      name: 'Dr. Sarah Future',
-      role: 'Industry Partner',
-      specialization: 'Emerging Technologies',
-      affiliation: 'FutureTech Industries'
-    },
-    {
-      name: 'Dr. Mike Experimental',
-      role: 'Collaborating Researcher',
-      specialization: 'Experimental Design',
-      affiliation: 'Innovation Research Institute'
-    }
-  ];
+  // const affiliates = [
+  //   {
+  //     name: 'Prof. John Innovation',
+  //     role: 'Faculty Advisor',
+  //     specialization: 'Technology Innovation',
+  //     affiliation: 'Department of Engineering'
+  //   },
+  //   {
+  //     name: 'Dr. Sarah Future',
+  //     role: 'Industry Partner',
+  //     specialization: 'Emerging Technologies',
+  //     affiliation: 'FutureTech Industries'
+  //   },
+  //   {
+  //     name: 'Dr. Mike Experimental',
+  //     role: 'Collaborating Researcher',
+  //     specialization: 'Experimental Design',
+  //     affiliation: 'Innovation Research Institute'
+  //   }
+  // ];
 
   const members = [
     {

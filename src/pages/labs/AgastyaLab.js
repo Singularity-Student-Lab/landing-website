@@ -27,26 +27,26 @@ const AgastyaLab = () => {
     }
   ];
 
-  const affiliates = [
-    {
-      name: 'Prof. John Robotics',
-      role: 'Faculty Advisor',
-      specialization: 'Mechanical Engineering',
-      affiliation: 'Department of Engineering'
-    },
-    {
-      name: 'Dr. Sarah Sensors',
-      role: 'Industry Partner',
-      specialization: 'Sensor Technologies',
-      affiliation: 'SmartTech Industries'
-    },
-    {
-      name: 'Dr. Mike Embedded',
-      role: 'Collaborating Researcher',
-      specialization: 'Embedded Systems',
-      affiliation: 'Embedded Research Labs'
-    }
-  ];
+  // const affiliates = [
+  //   {
+  //     name: 'Prof. John Robotics',
+  //     role: 'Faculty Advisor',
+  //     specialization: 'Mechanical Engineering',
+  //     affiliation: 'Department of Engineering'
+  //   },
+  //   {
+  //     name: 'Dr. Sarah Sensors',
+  //     role: 'Industry Partner',
+  //     specialization: 'Sensor Technologies',
+  //     affiliation: 'SmartTech Industries'
+  //   },
+  //   {
+  //     name: 'Dr. Mike Embedded',
+  //     role: 'Collaborating Researcher',
+  //     specialization: 'Embedded Systems',
+  //     affiliation: 'Embedded Research Labs'
+  //   }
+  // ];
 
   const members = [
     {

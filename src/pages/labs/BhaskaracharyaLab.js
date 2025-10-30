@@ -27,26 +27,26 @@ const BhaskaracharyaLab = () => {
     }
   ];
 
-  const affiliates = [
-    {
-      name: 'Prof. John Crypto',
-      role: 'Faculty Advisor',
-      specialization: 'Cryptography',
-      affiliation: 'Department of Computer Science'
-    },
-    {
-      name: 'Dr. Sarah Security',
-      role: 'Industry Partner',
-      specialization: 'Cybersecurity',
-      affiliation: 'CyberDefense Corp'
-    },
-    {
-      name: 'Dr. Mike Blockchain',
-      role: 'Collaborating Researcher',
-      specialization: 'Distributed Ledger',
-      affiliation: 'Blockchain Research Institute'
-    }
-  ];
+  // const affiliates = [
+  //   {
+  //     name: 'Prof. John Crypto',
+  //     role: 'Faculty Advisor',
+  //     specialization: 'Cryptography',
+  //     affiliation: 'Department of Computer Science'
+  //   },
+  //   {
+  //     name: 'Dr. Sarah Security',
+  //     role: 'Industry Partner',
+  //     specialization: 'Cybersecurity',
+  //     affiliation: 'CyberDefense Corp'
+  //   },
+  //   {
+  //     name: 'Dr. Mike Blockchain',
+  //     role: 'Collaborating Researcher',
+  //     specialization: 'Distributed Ledger',
+  //     affiliation: 'Blockchain Research Institute'
+  //   }
+  // ];
 
   const members = [
     {

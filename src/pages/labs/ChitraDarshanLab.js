@@ -27,26 +27,26 @@ const ChitraDarshanLab = () => {
     }
   ];
 
-  const affiliates = [
-    {
-      name: 'Prof. John Unity',
-      role: 'Faculty Advisor',
-      specialization: 'Interactive Media',
-      affiliation: 'Department of Digital Arts'
-    },
-    {
-      name: 'Dr. Sarah Engine',
-      role: 'Industry Partner',
-      specialization: 'Game Engines',
-      affiliation: 'Epic Games Research'
-    },
-    {
-      name: 'Dr. Mike Reality',
-      role: 'Collaborating Researcher',
-      specialization: 'Spatial Computing',
-      affiliation: 'Meta Reality Labs'
-    }
-  ];
+  // const affiliates = [
+  //   {
+  //     name: 'Prof. John Unity',
+  //     role: 'Faculty Advisor',
+  //     specialization: 'Interactive Media',
+  //     affiliation: 'Department of Digital Arts'
+  //   },
+  //   {
+  //     name: 'Dr. Sarah Engine',
+  //     role: 'Industry Partner',
+  //     specialization: 'Game Engines',
+  //     affiliation: 'Epic Games Research'
+  //   },
+  //   {
+  //     name: 'Dr. Mike Reality',
+  //     role: 'Collaborating Researcher',
+  //     specialization: 'Spatial Computing',
+  //     affiliation: 'Meta Reality Labs'
+  //   }
+  // ];
 
   const members = [
     {

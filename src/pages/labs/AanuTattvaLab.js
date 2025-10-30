@@ -20,26 +20,26 @@ const AanuTattvaLab = () => {
 
   ];
 
-  const affiliates = [
-    {
-      name: 'Prof. Richard Feynman',
-      role: 'Faculty Advisor',
-      //specialization: 'Quantum Physics',
-      affiliation: 'Department of Physics'
-    },
-    {
-      name: 'Dr. Shor Algorithm',
-      role: 'Industry Partner',
-      //specialization: 'Quantum Cryptography',
-      affiliation: 'QuantumTech Industries'
-    },
-    {
-      name: 'Dr. Bell State',
-      role: 'Collaborating Researcher',
-      specialization: 'Quantum Entanglement',
-      affiliation: 'Quantum Research Institute'
-    }
-  ];
+  // const affiliates = [
+  //   {
+  //     name: 'Prof. Richard Feynman',
+  //     role: 'Faculty Advisor',
+  //     //specialization: 'Quantum Physics',
+  //     affiliation: 'Department of Physics'
+  //   },
+  //   {
+  //     name: 'Dr. Shor Algorithm',
+  //     role: 'Industry Partner',
+  //     //specialization: 'Quantum Cryptography',
+  //     affiliation: 'QuantumTech Industries'
+  //   },
+  //   {
+  //     name: 'Dr. Bell State',
+  //     role: 'Collaborating Researcher',
+  //     specialization: 'Quantum Entanglement',
+  //     affiliation: 'Quantum Research Institute'
+  //   }
+  // ];
 
   const members = [
     {

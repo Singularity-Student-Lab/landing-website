@@ -20,26 +20,26 @@ const PrajnaKritrimaLab = () => {
     }
   ];
 
-  const affiliates = [
-    {
-      name: 'Prof. Michael Zhang',
-      role: 'Faculty Advisor',
-      specialization: 'Computer Vision',
-      affiliation: 'Department of Computer Science'
-    },
-    {
-      name: 'Dr. Emily Watson',
-      role: 'Industry Partner',
-      specialization: 'MLOps & Production Systems',
-      affiliation: 'TechCorp AI Research'
-    },
-    {
-      name: 'Dr. James Park',
-      role: 'Collaborating Researcher',
-      specialization: 'Natural Language Processing',
-      affiliation: 'NLP Research Institute'
-    }
-  ];
+  // const affiliates = [
+  //   {
+  //     name: 'Prof. Michael Zhang',
+  //     role: 'Faculty Advisor',
+  //     specialization: 'Computer Vision',
+  //     affiliation: 'Department of Computer Science'
+  //   },
+  //   {
+  //     name: 'Dr. Emily Watson',
+  //     role: 'Industry Partner',
+  //     specialization: 'MLOps & Production Systems',
+  //     affiliation: 'TechCorp AI Research'
+  //   },
+  //   {
+  //     name: 'Dr. James Park',
+  //     role: 'Collaborating Researcher',
+  //     specialization: 'Natural Language Processing',
+  //     affiliation: 'NLP Research Institute'
+  //   }
+  // ];
 
   const members = [
     {
