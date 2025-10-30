@@ -286,7 +286,7 @@ const BhaskaracharyaLab = () => {
           </div>
 
           {/* Affiliates */}
-          <div className="mb-16">
+          {/* <div className="mb-16">
             <h3 className="text-2xl font-bold text-white mb-8 font-heading">Affiliates</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {affiliates.map((affiliate, index) => (
@@ -304,7 +304,7 @@ const BhaskaracharyaLab = () => {
                 </motion.div>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Members */}
           <div>

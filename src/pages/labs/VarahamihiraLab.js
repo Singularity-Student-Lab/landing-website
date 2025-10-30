@@ -42,44 +42,44 @@ const VarahamihiraLab = () => {
   //   }
   // ];
 
-  // const members = [
-  //   {
-  //     name: 'Maria Garcia',
-  //     role: 'PhD Student',
-  //     specialization: 'Computer Vision',
-  //     year: '3rd Year'
-  //   },
-  //   {
-  //     name: 'David Kim',
-  //     role: 'MS Student',
-  //     specialization: 'Reinforcement Learning',
-  //     year: '2nd Year'
-  //   },
-  //   {
-  //     name: 'Lisa Wang',
-  //     role: 'Undergraduate Researcher',
-  //     specialization: 'Generative Models',
-  //     year: 'Senior'
-  //   },
-  //   {
-  //     name: 'Tom Wilson',
-  //     role: 'PhD Student',
-  //     specialization: 'Federated Learning',
-  //     year: '4th Year'
-  //   },
-  //   {
-  //     name: 'Anna Patel',
-  //     role: 'MS Student',
-  //     specialization: 'Explainable AI',
-  //     year: '1st Year'
-  //   },
-  //   {
-  //     name: 'Chris Brown',
-  //     role: 'Undergraduate Researcher',
-  //     specialization: 'Deep Reinforcement Learning',
-  //     year: 'Junior'
-  //   }
-  // ];
+  const members = [
+    {
+      name: 'Maria Garcia',
+      role: 'PhD Student',
+      specialization: 'Computer Vision',
+      year: '3rd Year'
+    },
+    {
+      name: 'David Kim',
+      role: 'MS Student',
+      specialization: 'Reinforcement Learning',
+      year: '2nd Year'
+    },
+    {
+      name: 'Lisa Wang',
+      role: 'Undergraduate Researcher',
+      specialization: 'Generative Models',
+      year: 'Senior'
+    },
+    {
+      name: 'Tom Wilson',
+      role: 'PhD Student',
+      specialization: 'Federated Learning',
+      year: '4th Year'
+    },
+    {
+      name: 'Anna Patel',
+      role: 'MS Student',
+      specialization: 'Explainable AI',
+      year: '1st Year'
+    },
+    {
+      name: 'Chris Brown',
+      role: 'Undergraduate Researcher',
+      specialization: 'Deep Reinforcement Learning',
+      year: 'Junior'
+    }
+  ];
 
   const researchAreas = [
     {
@@ -276,7 +276,7 @@ const VarahamihiraLab = () => {
           </div>
 
           {/* Affiliates */}
-          <div className="mb-16">
+          {/* <div className="mb-16">
             <h3 className="text-2xl font-bold text-white mb-8 font-heading">Affiliates</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {affiliates.map((affiliate, index) => (
@@ -294,7 +294,7 @@ const VarahamihiraLab = () => {
                 </motion.div>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Members */}
           <div>
