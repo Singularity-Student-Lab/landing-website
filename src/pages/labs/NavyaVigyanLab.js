@@ -241,32 +241,89 @@ const NavyaVigyanLab = () => {
           </motion.div>
 
           {/* Executives */}
-          <div className="mb-16">
-            <h3 className="text-2xl font-bold text-white mb-8 font-heading">Executives</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {executives.map((executive, index) => (
-                <motion.div
-                  key={executive.name}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="glass-effect rounded-xl p-6 flex flex-col items-center md:items-start text-center md:text-left card-hover"
-                >
-                  <div className="w-24 h-24 mb-4 rounded-full overflow-hidden bg-gray-700">
-                    <img 
-                      src={executive.image} 
-                      alt={executive.name}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <h4 className="text-xl font-bold text-white mb-2 font-body">{executive.name}</h4>
-                  <p className="text-blue-400 font-semibold mb-2 font-body">{executive.role}</p>
-                  <p className="text-gray-400 text-sm mb-3 font-body">{executive.specialization}</p>
-                  <p className="text-gray-300 text-sm leading-relaxed font-body">{executive.bio}</p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
+<div className="mb-16">
+  <h3 className="text-2xl font-bold text-white mb-8 font-heading">Executives</h3>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    {executives.map((executive, index) => (
+      <motion.div
+        key={executive.name}
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: index * 0.1 }}
+        className="relative glass-effect rounded-xl p-6 flex flex-col items-center md:items-start text-center md:text-left card-hover overflow-hidden"
+      >
+        {/* 🔹 Top-right Lab Logo */}
+        <img
+          src="https://res.cloudinary.com/djtemmctt/image/upload/v1761840524/WhatsApp_Image_2025-10-30_at_9.37.08_PM_e2urti.jpg" // <-- replace with your actual Cloudinary logo link
+          alt="Lab Logo"
+          className="absolute top-3 right-3 w-10 h-10 object-contain opacity-80 hover:opacity-100 transition-opacity"
+        />
+
+        {/* Executive Image */}
+        <div className="w-24 h-24 mb-4 rounded-full overflow-hidden bg-gray-700">
+          <img
+            src={executive.image}
+            alt={executive.name}
+            className="w-full h-full object-cover"
+            onError={(e) => {
+              e.target.src = '/api/placeholder/150/150';
+            }}
+          />
+        </div>
+
+        {/* Executive Info */}
+        <h4 className="text-xl font-bold text-white mb-2 font-body">{executive.name}</h4>
+        <p className="text-blue-400 font-semibold mb-2 font-body">{executive.role}</p>
+        <p className="text-gray-400 text-sm mb-8 font-body">{executive.specialization}</p>
+
+        {/* 🔹 Social Icons (Bottom Right) */}
+        <div className="absolute bottom-3 right-4 flex space-x-3">
+          {/* LinkedIn */}
+          {executive.linkedin && (
+            <a
+              href={executive.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 transition-colors"
+              title="View LinkedIn Profile"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="w-6 h-6"
+              >
+                <path d="M19 0h-14C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5V5c0-2.761-2.238-5-5-5zm-11 19H5V9h3v10zm-1.5-11.271c-.966 0-1.75-.786-1.75-1.75S5.534 4.229 6.5 4.229s1.75.786 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.271h-3v-5.604c0-1.336-.025-3.056-1.861-3.056-1.861 0-2.145 1.454-2.145 2.956V19h-3V9h2.879v1.366h.041c.402-.76 1.384-1.561 2.849-1.561 3.046 0 3.61 2.006 3.61 4.617V19z" />
+              </svg>
+            </a>
+          )}
+
+          {/* Twitter */}
+          {executive.twitter && (
+            <a
+              href={executive.twitter}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 transition-colors"
+              title="View Twitter Profile"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="w-6 h-6"
+              >
+                <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.949.564-2.005.974-3.127 1.195-.896-.957-2.173-1.555-3.591-1.555-2.719 0-4.924 2.206-4.924 4.924 0 .39.045.765.127 1.124-4.09-.205-7.72-2.166-10.148-5.144-.424.729-.667 1.577-.667 2.476 0 1.708.87 3.213 2.188 4.096-.807-.026-1.566-.247-2.229-.616v.062c0 2.385 1.693 4.374 3.946 4.827-.413.112-.849.171-1.296.171-.317 0-.626-.031-.927-.088.627 1.956 2.444 3.377 4.6 3.417-1.68 1.317-3.809 2.102-6.115 2.102-.397 0-.788-.023-1.175-.068 2.179 1.397 4.768 2.212 7.557 2.212 9.054 0 14-7.496 14-13.986 0-.213-.004-.425-.014-.637.961-.693 1.8-1.562 2.46-2.549z" />
+              </svg>
+            </a>
+          )}
+        </div>
+      </motion.div>
+    ))}
+  </div>
+</div>
+
 
           {/* Affiliates */}
           {/* <div className="mb-16">

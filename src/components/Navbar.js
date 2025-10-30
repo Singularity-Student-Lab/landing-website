@@ -135,7 +135,7 @@ const Navbar = () => {
                 </Link>
               )
             ))}
-            <div className="flex items-center space-x-4 pl-4">
+            {/* <div className="flex items-center space-x-4 pl-4">
               {user ? (
                 <>
                   <span className="text-white font-semibold">Hi, {user.username}</span>
@@ -147,7 +147,7 @@ const Navbar = () => {
                   <Link to="/register" className="text-white bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded-lg transition-colors">Register</Link>
                 </>
               )}
-            </div>
+            </div> */}
           </div>
 
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-gray-300 hover:text-blue-400">
