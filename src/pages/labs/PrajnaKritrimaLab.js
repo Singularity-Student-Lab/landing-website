@@ -335,7 +335,7 @@ const PrajnaKritrimaLab = () => {
               and students to join our mission of advancing artificial intelligence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button 
+              {/* <button 
                 onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLScydNENhXxXQhfKd8nWbawxD2y0jtPTcYjqFqRqhOyz-Da3tw/viewform?usp=header', '_blank')}
                 className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-cyan-600 transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center space-x-2"
               >
@@ -344,7 +344,7 @@ const PrajnaKritrimaLab = () => {
               </button>
               <button className="border-2 border-gray-300 text-gray-300 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 hover:text-black transition-all duration-300">
                 View Publications
-              </button>
+              </button> */}
             </div>
           </motion.div>
         </div>

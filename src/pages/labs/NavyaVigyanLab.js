@@ -85,7 +85,7 @@ const NavyaVigyanLab = () => {
       title: 'Interdisciplinary Research',
       description: 'Bridging multiple scientific disciplines to create innovative solutions for complex global challenges.',
       icon: FlaskConical,
-      color: 'from-yellow-500 to-orange-500'
+      color: 'from-blue-500 to-blue-500'
     },
     {
       title: 'Experimental Technology',
@@ -150,13 +150,13 @@ const NavyaVigyanLab = () => {
             className="text-left"
           >
             <div className="mb-6">
-              <div className="w-20 h-20 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-2xl flex items-center justify-center">
+              <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-blue-500 rounded-2xl flex items-center justify-center">
                 <FlaskConical className="w-10 h-10 text-white" />
               </div>
             </div>
             
             <h1 className="text-4xl md:text-6xl lg:text-8xl font-black text-white mb-6 font-heading">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-400">
                 Navya Vigyan
               </span> Lab
             </h1>
@@ -203,7 +203,7 @@ const NavyaVigyanLab = () => {
             className="text-left mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-              Research <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">Areas</span>
+              Research <span className="bg-gradient-to-r from-blue-400 to-blue-400 bg-clip-text text-transparent">Areas</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl font-body">
               Our research spans multiple disciplines, creating innovative solutions at the intersection of technology and science.
@@ -240,7 +240,7 @@ const NavyaVigyanLab = () => {
             className="text-left mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-              Our <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">Team</span>
+              Our <span className="bg-gradient-to-r from-blue-400 to-blue-400 bg-clip-text text-transparent">Team</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl font-body">
               Meet the interdisciplinary innovators pushing the boundaries of experimental technology.
@@ -267,7 +267,7 @@ const NavyaVigyanLab = () => {
                     />
                   </div>
                   <h4 className="text-xl font-bold text-white mb-2 font-body">{executive.name}</h4>
-                  <p className="text-yellow-400 font-semibold mb-2 font-body">{executive.role}</p>
+                  <p className="text-blue-400 font-semibold mb-2 font-body">{executive.role}</p>
                   <p className="text-gray-400 text-sm mb-3 font-body">{executive.specialization}</p>
                   <p className="text-gray-300 text-sm leading-relaxed font-body">{executive.bio}</p>
                 </motion.div>
@@ -288,7 +288,7 @@ const NavyaVigyanLab = () => {
                   className="glass-effect rounded-lg p-6 card-hover"
                 >
                   <h4 className="text-lg font-bold text-white mb-2 font-body">{affiliate.name}</h4>
-                  <p className="text-yellow-400 font-semibold mb-2 font-body">{affiliate.role}</p>
+                  <p className="text-blue-400 font-semibold mb-2 font-body">{affiliate.role}</p>
                   <p className="text-gray-400 text-sm mb-2 font-body">{affiliate.specialization}</p>
                   <p className="text-gray-500 text-xs font-body">{affiliate.affiliation}</p>
                 </motion.div>
@@ -309,7 +309,7 @@ const NavyaVigyanLab = () => {
                   className="glass-effect rounded-lg p-6 card-hover"
                 >
                   <h4 className="text-lg font-bold text-white mb-2 font-body">{member.name}</h4>
-                  <p className="text-yellow-400 font-semibold mb-2 font-body">{member.role}</p>
+                  <p className="text-blue-400 font-semibold mb-2 font-body">{member.role}</p>
                   <p className="text-gray-400 text-sm mb-2 font-body">{member.specialization}</p>
                   <p className="text-gray-500 text-xs font-body">{member.year}</p>
                 </motion.div>
@@ -336,16 +336,16 @@ const NavyaVigyanLab = () => {
               of experimental technology pioneers shaping the future of science and technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button 
+              {/* <button 
                 onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLScydNENhXxXQhfKd8nWbawxD2y0jtPTcYjqFqRqhOyz-Da3tw/viewform?usp=header', '_blank')}
-                className="bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:from-yellow-600 hover:to-orange-600 transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center space-x-2"
+                className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center space-x-2"
               >
                 <span>Apply Now</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
               <button className="border-2 border-gray-300 text-gray-300 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 hover:text-black transition-all duration-300">
                 View Our Innovations
-              </button>
+              </button> */}
             </div>
           </motion.div>
         </div>

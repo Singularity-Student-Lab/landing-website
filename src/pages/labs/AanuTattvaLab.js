@@ -85,7 +85,7 @@ const AanuTattvaLab = () => {
       title: 'Quantum Algorithms',
       description: 'Developing novel quantum algorithms for optimization, simulation, and machine learning problems.',
       icon: Zap,
-      color: 'from-purple-500 to-pink-500'
+      color: 'from-blue-500 to-blue-500'
     },
     {
       title: 'Quantum Machine Learning',
@@ -112,81 +112,71 @@ const AanuTattvaLab = () => {
       {/* Moved styles to external CSS - Better practice */}
       
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Video Background */}
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-              zIndex: 1
-            }}
-            src="https://res.cloudinary.com/djtemmctt/video/upload/v1758569986/WhatsApp_Video_2025-09-23_at_12.34.51_AM_apnvdi.mp4"
-          />
+<section className="relative min-h-screen flex items-center justify-start overflow-hidden">
+  {/* Video Background */}
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      objectFit: 'cover',
+      zIndex: 1,
+    }}
+    src="https://res.cloudinary.com/djtemmctt/video/upload/v1758569986/WhatsApp_Video_2025-09-23_at_12.34.51_AM_apnvdi.mp4"
+  />
 
-          {/* Overlay for readability */}
-          <div 
-            style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%',
-              backgroundColor: 'rgba(0, 0, 0, 0.7)',
-              zIndex: 2
-            }}
-          ></div>
+  {/* Overlay for readability */}
+  <div
+    style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      backgroundColor: 'rgba(0, 0, 0, 0.7)',
+      zIndex: 2,
+    }}
+  ></div>
 
-          <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-              className="text-left"
-            >
-            </motion.div>
-          </div>
-        
-        {/* Fallback background image if video fails */}
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 z-0"></div>
-        
-        {/* Overlay for readability */}
-        <div className="absolute inset-0 bg-black/70 z-10"></div>
-        
-        <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-left"
-          >
-            <div className="mb-6">
-              <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center">
-                <Zap className="w-10 h-10 text-white" />
-              </div>
-            </div>
-            
-            <h1 className="text-4xl md:text-6xl lg:text-8xl font-black text-white mb-6 font-heading">
-              Aanu <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Tattva</span> Lab
-            </h1>
-            
-            <p className="text-xl md:text-2xl text-gray-300 mb-4 font-body">
-              Quantum Computing & Quantum Machine Learning
-            </p>
-            
-            <p className="text-lg text-gray-400 max-w-4xl leading-relaxed font-body">
-              Aanu Tattva Lab, derived from Sanskrit where “Aanu” means atom and “Tattva” means principle or essence, is the Quantum Computing division of the Singularity Student Research Lab at SRM University AP. It’s where physics meets computation — students explore qubits, entanglement, and quantum algorithms to decode the mysteries of the subatomic world. From theoretical foundations to quantum simulations, Aanu Tattva Lab is where the next wave of computational revolution begins.
-            </p>
-          </motion.div>
+  {/* Fallback background */}
+  <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-900 to-indigo-900 z-0"></div>
+
+  {/* Overlay for readability */}
+  <div className="absolute inset-0 bg-black/70 z-10"></div>
+
+  {/* Content */}
+  <div className="relative z-20 w-full px-6 sm:px-10 lg:px-20 text-left">
+    <motion.div
+      initial={{ opacity: 0, x: -50 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.8 }}
+    >
+      <div className="mb-6">
+        <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-blue-500 rounded-2xl flex items-center justify-center">
+          <Zap className="w-10 h-10 text-white" />
         </div>
-      </section>
+      </div>
+
+      <h1 className="text-4xl md:text-6xl lg:text-8xl font-black text-white mb-6 font-heading">
+        Aanu <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-400">Tattva</span> Lab
+      </h1>
+
+      <p className="text-xl md:text-2xl text-gray-300 mb-4 font-body">
+        Quantum Computing & Quantum Machine Learning
+      </p>
+
+      <p className="text-lg text-gray-400 max-w-3xl leading-relaxed font-body">
+        Aanu Tattva Lab, derived from Sanskrit where “Aanu” means atom and “Tattva” means principle or essence, is the Quantum Computing division of the Singularity Student Research Lab at SRM University AP. It’s where physics meets computation — students explore qubits, entanglement, and quantum algorithms to decode the mysteries of the subatomic world. From theoretical foundations to quantum simulations, Aanu Tattva Lab is where the next wave of computational revolution begins.
+      </p>
+    </motion.div>
+  </div>
+</section>
 
       {/* Mission Statement */}
       <section className="py-20 bg-gradient-to-b from-transparent to-gray-900/50">
@@ -222,7 +212,7 @@ const AanuTattvaLab = () => {
             className="text-left mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-              Research <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Areas</span>
+              Research <span className="bg-gradient-to-r from-blue-400 to-blue-400 bg-clip-text text-transparent">Areas</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl font-body">
               Our research spans the cutting-edge domains of quantum computing and quantum machine learning
@@ -261,7 +251,7 @@ const AanuTattvaLab = () => {
             className="text-left mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-              Our <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Team</span>
+              Our <span className="bg-gradient-to-r from-blue-400 to-blue-400 bg-clip-text text-transparent">Team</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl font-body">
               Meet the quantum pioneers pushing the boundaries of computation
@@ -292,7 +282,7 @@ const AanuTattvaLab = () => {
                     />
                   </div>
                   <h4 className="text-xl font-bold text-white mb-2 font-body">{executive.name}</h4>
-                  <p className="text-purple-400 font-semibold mb-2 font-body">{executive.role}</p>
+                  <p className="text-blue-400 font-semibold mb-2 font-body">{executive.role}</p>
                   <p className="text-gray-400 text-sm mb-3 font-body">{executive.specialization}</p>
                   <p className="text-gray-300 text-sm leading-relaxed font-body">{executive.bio}</p>
                 </motion.div>
@@ -314,7 +304,7 @@ const AanuTattvaLab = () => {
                   className="glass-effect rounded-lg p-6 card-hover"
                 >
                   <h4 className="text-lg font-bold text-white mb-2 font-body">{affiliate.name}</h4>
-                  <p className="text-purple-400 font-semibold mb-2 font-body">{affiliate.role}</p>
+                  <p className="text-blue-400 font-semibold mb-2 font-body">{affiliate.role}</p>
                   <p className="text-gray-400 text-sm mb-2 font-body">{affiliate.specialization}</p>
                   <p className="text-gray-500 text-xs font-body">{affiliate.affiliation}</p>
                 </motion.div>
@@ -336,7 +326,7 @@ const AanuTattvaLab = () => {
                   className="glass-effect rounded-lg p-6 card-hover"
                 >
                   <h4 className="text-lg font-bold text-white mb-2 font-body">{member.name}</h4>
-                  <p className="text-purple-400 font-semibold mb-2 font-body">{member.role}</p>
+                  <p className="text-blue-400 font-semibold mb-2 font-body">{member.role}</p>
                   <p className="text-gray-400 text-sm mb-2 font-body">{member.specialization}</p>
                   <p className="text-gray-500 text-xs font-body">{member.year}</p>
                 </motion.div>
@@ -364,16 +354,16 @@ const AanuTattvaLab = () => {
               quantum computing to join our mission of building the quantum future.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button 
+              {/* <button 
                 onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLScydNENhXxXQhfKd8nWbawxD2y0jtPTcYjqFqRqhOyz-Da3tw/viewform?usp=header', '_blank')}
-                className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center space-x-2"
+                className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center space-x-2"
               >
                 <span>Apply Now</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
               <button className="border-2 border-gray-300 text-gray-300 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 hover:text-black transition-all duration-300">
                 View Publications
-              </button>
+              </button> */}
             </div>
           </motion.div>
         </div>
