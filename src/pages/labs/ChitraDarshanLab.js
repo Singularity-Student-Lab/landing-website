@@ -10,15 +10,17 @@ const getCloudinaryUrl = (publicId, transformations = '') => {
 };
 
 const ChitraDarshanLab = () => {
-  const executives = [
-    {
-      name: 'Coming Soon',
-      // role: 'Lab Director',
-      specialization: 'Game Development & Graphics',
-      image: 'image link here',
-      bio: 'Expert in game development with 15+ years of experience in AAA game production and graphics programming.'
-    },
-  ];
+const executives = [
+  {
+    name: 'Coming Soon',
+    //specialization: 'Game Development & Graphics',
+    image: '  https://res.cloudinary.com/djtemmctt/image/upload/v1761843162/Screenshot_from_2025-10-30_22-22-27_uq2azr.png', // 🔹 Replace with actual Cloudinary image or placeholder
+    linkedin: '#', // 🔹 Placeholder until profile available
+    twitter: '#', // 🔹 Placeholder until profile available
+  },
+];
+
+
 
   // const affiliates = [
   //   {
