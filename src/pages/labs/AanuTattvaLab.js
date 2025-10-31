@@ -164,7 +164,7 @@ const AanuTattvaLab = () => {
       </div>
 
       <h1 className="text-4xl md:text-6xl lg:text-8xl font-black text-white mb-6 font-heading">
-        Aanu <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-400">Tattva</span> Lab
+       <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-400"> Aanu Tattva</span> Lab
       </h1>
 
       <p className="text-xl md:text-2xl text-gray-300 mb-4 font-body">
